@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name gergotron)(type KiCad)(uri ${KIPRJMOD}/gergotron.pretty)(options "")(descr ""))
+  (lib (name pcm1808)(type KiCad)(uri ${KIPRJMOD}/pcm1808.pretty)(options "")(descr ""))
 )
