@@ -983,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 1850 5550 1850
 Wire Wire Line
-	5850 1550 3750 1550
+	5850 1550 5650 1550
 Wire Wire Line
 	3750 1550 3750 3800
 $Comp
@@ -1042,7 +1042,7 @@ Wire Wire Line
 	5550 1950 5550 1850
 Connection ~ 5550 1850
 Wire Wire Line
-	5550 1850 5850 1850
+	5550 1850 5650 1850
 Wire Wire Line
 	5850 2050 5750 2050
 Connection ~ 5750 2050
@@ -1068,6 +1068,27 @@ Wire Wire Line
 Connection ~ 5750 2250
 Wire Wire Line
 	5750 2250 5750 2450
+Wire Wire Line
+	5650 1850 5650 1550
+Connection ~ 5650 1850
+Wire Wire Line
+	5650 1850 5850 1850
+Connection ~ 5650 1550
+Wire Wire Line
+	5650 1550 3750 1550
+Wire Wire Line
+	5650 1550 5650 800 
 Wire Bus Line
 	2900 1150 2900 4050
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 5C151946
+P 5650 800
+F 0 "#PWR0121" H 5650 650 50  0001 C CNN
+F 1 "+3.3V" H 5665 973 50  0000 C CNN
+F 2 "" H 5650 800 50  0001 C CNN
+F 3 "" H 5650 800 50  0001 C CNN
+	1    5650 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
