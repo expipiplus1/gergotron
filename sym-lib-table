@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name audioJack3_TRS_TN)(type Legacy)(uri ${KIPRJMOD}/audioJack3_TRS_TN.lib)(options "")(descr ""))
+  (lib (name er-oled-fpc30)(type Legacy)(uri ${KIPRJMOD}/er-oled-fpc30.lib)(options "")(descr ""))
+  (lib (name kmdgx-6s-bs)(type Legacy)(uri ${KIPRJMOD}/kmdgx-6s-bs.lib)(options "")(descr ""))
+  (lib (name pcm1808)(type Legacy)(uri ${KIPRJMOD}/pcm1808.lib)(options "")(descr ""))
+)
