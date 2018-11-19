@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:gergotron-cache
-LIBS:ergotron-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1012,7 +1011,7 @@ Wire Wire Line
 	5850 3050 5750 3050
 Connection ~ 5750 3050
 Wire Wire Line
-	5750 3050 5750 3850
+	5750 3050 5750 3150
 Wire Wire Line
 	5850 3150 5750 3150
 Wire Wire Line
@@ -1078,8 +1077,6 @@ Wire Wire Line
 	5650 1550 3750 1550
 Wire Wire Line
 	5650 1550 5650 800 
-Wire Bus Line
-	2900 1150 2900 4050
 $Comp
 L power:+3.3V #PWR0121
 U 1 1 5C151946
@@ -1091,4 +1088,28 @@ F 3 "" H 5650 800 50  0001 C CNN
 	1    5650 800 
 	1    0    0    -1  
 $EndComp
+Connection ~ 5750 3150
+Wire Wire Line
+	5750 3150 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5750 3250 5750 3350
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 5750 3450
+Connection ~ 5750 3450
+Wire Wire Line
+	5750 3450 5750 3850
+NoConn ~ 1800 1050
+NoConn ~ 1800 1250
+NoConn ~ 1800 1750
+NoConn ~ 1800 1950
+NoConn ~ 9000 2500
+NoConn ~ 9000 2600
+NoConn ~ 9000 2700
+NoConn ~ 9000 2800
+NoConn ~ 9000 2900
+NoConn ~ 9000 3000
+Wire Bus Line
+	2900 1150 2900 4050
 $EndSCHEMATC
