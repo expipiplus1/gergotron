@@ -3,4 +3,5 @@
   (lib (name gergotron)(type KiCad)(uri ${KIPRJMOD}/gergotron.pretty)(options "")(descr ""))
   (lib (name pcm1808)(type KiCad)(uri ${KIPRJMOD}/pcm1808.pretty)(options "")(descr ""))
   (lib (name er-oled-fpc30)(type Legacy)(uri ${KIPRJMOD}/er-oled-fpc30.mod)(options "")(descr ""))
+  (lib (name octo)(type KiCad)(uri ${KIPRJMOD}/octo.pretty)(options "")(descr ""))
 )
